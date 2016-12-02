@@ -529,14 +529,22 @@ section {
 #clientssaid .feedback-slider-content.text-center.slick-slide.slick-current.slick-active {
   outline: none;
 }
-#clientssaid .slick-dots li button {
+#clientssaid .slick-dots li button:before {
   width: 21px;
   height: 7px;
-  background-color: #6a6969;
+  color: transparent;
+  background-color: #7a7a7a;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   border-radius: 10px;
   display: inline-block;
+}
+#clientssaid .slick-dots li.slick-active button:before {
+  color: transparent;
+  background-color: #fc7254;
+}
+#clientssaid .slick-dots {
+  bottom: -50px;
 }

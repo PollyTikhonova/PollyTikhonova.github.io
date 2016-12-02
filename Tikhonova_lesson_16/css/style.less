@@ -577,11 +577,21 @@ section {
 	.feedback-slider-content.text-center.slick-slide.slick-current.slick-active {
 		outline: none;
 }
-		.slick-dots li button {
+		.slick-dots li button:before {
 			width: 21px;
 			height: 7px;
-			background-color: @myblack;
+			color: transparent;
+			background-color: darken(#e0e0e0, 40%);
 			.border-rad(10px);
 			display: inline-block;
+		}
+
+		.slick-dots li.slick-active button:before {
+			color: transparent;
+			background-color: @orange;
+		}
+
+		.slick-dots {
+			bottom: -50px;
 		}
 }
