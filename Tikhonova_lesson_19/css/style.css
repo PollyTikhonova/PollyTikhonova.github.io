@@ -865,6 +865,13 @@ Modal Window
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
   }
+  #works .hovereffect .overlay h2 {
+    font-size: 15px;
+    padding-top: 15%;
+  }
+  #works .hovereffect .overlay button {
+    font-size: 10px;
+  }
   #services .services-list {
     text-align: center;
   }
@@ -895,7 +902,11 @@ Modal Window
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
   }
-  #works .hovereffect .overlay {
+  #works .hovereffect .overlay h2 {
+    font-size: 20px;
+    padding-top: 15%;
+  }
+  #works .hovereffect .overlay button {
     font-size: 15px;
   }
   #services .services-list {
