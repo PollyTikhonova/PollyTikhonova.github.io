@@ -895,6 +895,9 @@ Modal Window
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
   }
+  #works .hovereffect .overlay {
+    font-size: 15px;
+  }
   #services .services-list {
     text-align: center;
   }
