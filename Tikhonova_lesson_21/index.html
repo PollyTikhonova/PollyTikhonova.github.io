@@ -699,12 +699,15 @@
 	 	$(document).ready(function() {
 	 		$("#phone").mask("+7(999) 999-99 99");
 
+
+
 	 		$('button#formSubmit').click(function() {
 	 			if ($('input#userName').val() !== '') {
 	 				// $('#header-form').submit();
-	 				// $('h4#myModalLabel').text('Спасибо, '+$('input#userName').val()+' ваша форма отправлена!');
+	 				$('h4#myModalLabel').text('Спасибо, '+$('input#userName').val()+', ваша форма отправлена!');
 	 				$('#modal-bootstrap').modal('show');	 				
-	 			} 			
+	 			} 
+	 			return false;			
 	 		}) 
 	 	});
 	 </script>
