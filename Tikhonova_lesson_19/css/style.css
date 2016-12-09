@@ -871,148 +871,6 @@ Modal Window
     transform: scale3d(1, 1, 1);
   }
 }
-@media (max-width: 240px) {
-  #main .header-text h1 {
-    font-size: 28px;
-  }
-  .section-header h1 {
-    font-size: 28px;
-  }
-  #process .col-xs-12 .process-box {
-    margin-bottom: 50px;
-  }
-  #works .hovereffect {
-    display: block;
-    margin: 20px auto;
-    margin-left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-  #works .hovereffect .overlay h2 {
-    font-size: 15px;
-    padding-top: 7%;
-  }
-  #works .hovereffect .overlay button {
-    font-size: 10px;
-  }
-  #services .services-list {
-    text-align: center;
-  }
-  #services .services-list-item {
-    display: inline-block;
-  }
-  #services .tab-content img {
-    display: block;
-    margin: 5px auto;
-  }
-}
-@media (min-width: 240px) and (max-width: 480px) {
-  #main .header-text h1 {
-    font-size: 28px;
-  }
-  .section-header h1 {
-    font-size: 28px;
-  }
-  #process .col-xs-12 .process-box {
-    margin-bottom: 50px;
-  }
-  #works .hovereffect {
-    display: block;
-    margin: 20px auto;
-    margin-left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-  #works .hovereffect .overlay h2 {
-    font-size: 15px;
-    padding-top: 15%;
-  }
-  #works .hovereffect .overlay button {
-    font-size: 10px;
-  }
-  #services .services-list {
-    text-align: center;
-  }
-  #services .services-list-item {
-    display: inline-block;
-  }
-  #services .tab-content img {
-    display: block;
-    margin: 5px auto;
-  }
-}
-@media (min-width: 481px) and (max-width: 767px) {
-  #main .header-text h1 {
-    font-size: 28px;
-  }
-  .section-header h1 {
-    font-size: 28px;
-  }
-  #process .col-sm-6 .process-box {
-    margin-bottom: 50px;
-  }
-  #works .hovereffect {
-    display: block;
-    margin: 20px auto;
-    margin-left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-  #works .hovereffect .overlay h2 {
-    font-size: 20px;
-    padding-top: 15%;
-  }
-  #works .hovereffect .overlay button {
-    font-size: 15px;
-  }
-  #services .services-list {
-    text-align: center;
-  }
-  #services .services-list-item {
-    display: inline-block;
-  }
-  .tab-content img {
-    display: block;
-    margin: 5px auto;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  #process .col-sm-6 .process-box {
-    margin-bottom: 50px;
-  }
-  #works .hovereffect {
-    display: block;
-    margin: 20px auto;
-    margin-left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-  #services .services-list {
-    text-align: center;
-  }
-  #services .services-list-item {
-    display: inline-block;
-    margin: 5px 0;
-  }
-  #services .tab-content img {
-    display: block;
-    margin: 5px auto;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  #services .tab-content img {
-    display: block;
-    margin: 5px auto;
-  }
-}
 /*hamburger*/
 *,
 *:before,
@@ -1546,5 +1404,148 @@ Modal Window
   100% {
     width: 0;
     left: 36px;
+  }
+}
+/*MEDIA*/
+@media (max-width: 320px) {
+  #main .header-text h1 {
+    font-size: 28px;
+  }
+  .section-header h1 {
+    font-size: 28px;
+  }
+  #process .col-xs-12 .process-box {
+    margin-bottom: 50px;
+  }
+  #works .hovereffect {
+    display: block;
+    margin: 20px auto;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  #works .hovereffect .overlay h2 {
+    font-size: 15px;
+    padding-top: 7%;
+  }
+  #works .hovereffect .overlay button {
+    font-size: 10px;
+  }
+  #services .services-list {
+    text-align: center;
+  }
+  #services .services-list-item {
+    display: inline-block;
+  }
+  #services .tab-content img {
+    display: block;
+    margin: 5px auto;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  #main .header-text h1 {
+    font-size: 28px;
+  }
+  .section-header h1 {
+    font-size: 28px;
+  }
+  #process .col-xs-12 .process-box {
+    margin-bottom: 50px;
+  }
+  #works .hovereffect {
+    display: block;
+    margin: 20px auto;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  #works .hovereffect .overlay h2 {
+    font-size: 15px;
+    padding-top: 15%;
+  }
+  #works .hovereffect .overlay button {
+    font-size: 10px;
+  }
+  #services .services-list {
+    text-align: center;
+  }
+  #services .services-list-item {
+    display: inline-block;
+  }
+  #services .tab-content img {
+    display: block;
+    margin: 5px auto;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  #main .header-text h1 {
+    font-size: 28px;
+  }
+  .section-header h1 {
+    font-size: 28px;
+  }
+  #process .col-sm-6 .process-box {
+    margin-bottom: 50px;
+  }
+  #works .hovereffect {
+    display: block;
+    margin: 20px auto;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  #works .hovereffect .overlay h2 {
+    font-size: 20px;
+    padding-top: 15%;
+  }
+  #works .hovereffect .overlay button {
+    font-size: 15px;
+  }
+  #services .services-list {
+    text-align: center;
+  }
+  #services .services-list-item {
+    display: inline-block;
+  }
+  .tab-content img {
+    display: block;
+    margin: 5px auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #process .col-sm-6 .process-box {
+    margin-bottom: 50px;
+  }
+  #works .hovereffect {
+    display: block;
+    margin: 20px auto;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  #services .services-list {
+    text-align: center;
+  }
+  #services .services-list-item {
+    display: inline-block;
+    margin: 5px 0;
+  }
+  #services .tab-content img {
+    display: block;
+    margin: 5px auto;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #services .tab-content img {
+    display: block;
+    margin: 5px auto;
   }
 }
