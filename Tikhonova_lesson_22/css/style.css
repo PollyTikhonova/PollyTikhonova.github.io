@@ -49,13 +49,13 @@ section {
 .section-header {
   margin-bottom: 7%;
 }
-.section-header h1 {
+.section-header h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #6a6969;
   font-size: 50px;
 }
-.section-header h1 span {
+.section-header h2 span {
   color: #fc7254;
 }
 .section-header p {
@@ -1511,13 +1511,13 @@ Modal Window
   #main .header-text p {
     color: #6a6969;
   }
-  #main .header-text h1 {
+  #main .header-text h2 {
     color: #6a6969;
   }
-  #main .header-text h1 {
+  #main .header-text h2 {
     font-size: 28px;
   }
-  .section-header h1 {
+  .section-header h2 {
     font-size: 28px;
   }
   #process .col-xs-12 .process-box {
@@ -1574,13 +1574,13 @@ Modal Window
   #main .header-text p {
     color: #6a6969;
   }
-  #main .header-text h1 {
+  #main .header-text h2 {
     color: #6a6969;
   }
-  #main .header-text h1 {
+  #main .header-text h2 {
     font-size: 28px;
   }
-  .section-header h1 {
+  .section-header h2 {
     font-size: 28px;
   }
   #process .col-xs-12 .process-box {
